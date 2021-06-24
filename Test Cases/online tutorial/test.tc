@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cfdd107-7604-4443-b1bb-65d81888d30e</testCaseGuid>
+   <variable>
+      <defaultValue>'File3.txt'</defaultValue>
+      <description></description>
+      <id>924e8e57-eaac-49ac-8f21-226aa8982b10</id>
+      <masked>false</masked>
+      <name>expectedFileName</name>
+   </variable>
+</TestCaseEntity>

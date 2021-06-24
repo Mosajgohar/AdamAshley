@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login - TS" time="58.681" tests="1" failures="0" errors="0">
+   <testsuite name="Login - TS" tests="1" failures="0" errors="0" time="58.681" timestamp="2021-06-19 16:59:33" hostname="mosaj - 192.168.0.105" id="Test Suites/Ornage HRM/Login - TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/git/MAYA-FINAL-IOS/Reports/20210619_165914/Ornage HRM/Login - TS/20210619_165914"/>
+         <property name="logFiles" value="/Users/mosaj/git/MAYA-FINAL-IOS/Reports/20210619_165914/Ornage HRM/Login - TS/20210619_165914/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mosaj - 192.168.0.105"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 85.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="3a470dd8-9661-d24c-a737-8b5c676e2a82"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=-1, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/online tutorial/login HRM" time="56.317" classname="Test Cases/online tutorial/login HRM" status="PASSED">
+         <system-out><![CDATA[2021-06-19 16:59:34 - [TEST_CASE][PASSED] - Test Cases/online tutorial/login HRM: Test Cases/online tutorial/login HRM
+
+2021-06-19 16:59:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-19 16:59:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-06-19 16:59:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-06-19 16:59:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-19 16:59:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-19 16:59:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-19 16:59:47 - [TEST_STEP][PASSED] - navigateToUrl("https://mosajgohar-trials71.orangehrmlive.com/auth/login"): Navigate to 'https://mosajgohar-trials71.orangehrmlive.com/auth/login' successfully
+
+2021-06-19 16:59:49 - [MESSAGE][PASSED] - Navigate to 'https://mosajgohar-trials71.orangehrmlive.com/auth/login' successfully
+
+2021-06-19 16:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username")): Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username' is clicked on
+
+2021-06-19 16:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username' is clicked on
+
+2021-06-19 16:59:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-06-19 16:59:51 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-06-19 16:59:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword"), "Up62EXrKm@"): Text 'Up62EXrKm@' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-06-19 16:59:51 - [MESSAGE][PASSED] - Text 'Up62EXrKm@' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-06-19 16:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-06-19 16:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-06-19 16:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_Dashboard/img")): Object: 'Object Repository/Orange HRM Login/Page_Dashboard/img' is clicked on
+
+2021-06-19 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_Dashboard/img' is clicked on
+
+2021-06-19 17:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_Apply Leave/span_Home")): Object: 'Object Repository/Orange HRM Login/Page_Apply Leave/span_Home' is clicked on
+
+2021-06-19 17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_Apply Leave/span_Home' is clicked on
+
+2021-06-19 17:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down")): Object: 'Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down' is clicked on
+
+2021-06-19 17:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down' is clicked on
+
+2021-06-19 17:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down")): Object: 'Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down' is clicked on
+
+2021-06-19 17:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down' is clicked on
+
+2021-06-19 17:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_Dashboard/a_Logout")): Object: 'Object Repository/Orange HRM Login/Page_Dashboard/a_Logout' is clicked on
+
+2021-06-19 17:00:18 - [MESSAGE][ERROR] - TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MOHAMMADs-MacBook-Air.local', ip: '2001:f40:909:13fc:4131:3816:ed20:aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15275, moz:profile: /var/folders/pj/tdgwyxh90y7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a470dd8-9661-d24c-a737-8b5c676e2a82
+
+2021-06-19 17:00:24 - [MESSAGE][ERROR] - TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MOHAMMADs-MacBook-Air.local', ip: '2001:f40:909:13fc:4131:3816:ed20:aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15275, moz:profile: /var/folders/pj/tdgwyxh90y7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a470dd8-9661-d24c-a737-8b5c676e2a82
+
+2021-06-19 17:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_Dashboard/a_Logout' is clicked on
+
+2021-06-19 17:00:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-06-19 17:00:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-06-19 17:00:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-19 17:00:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-19 16:59:33 - [TEST_SUITE][PASSED] - Login - TS: Test Cases/online tutorial/login HRM]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

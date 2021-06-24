@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login - TS" time="21.578" tests="1" failures="0" errors="0">
+   <testsuite name="Login - TS" tests="1" failures="0" errors="0" time="21.578" timestamp="2021-06-22 19:57:04" hostname="mosaj - 192.168.0.105" id="Test Suites/Ornage HRM/Login - TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/git/MAYA-FINAL-IOS/Reports/20210622_195616/Ornage HRM/Login - TS/20210622_195626"/>
+         <property name="logFiles" value="/Users/mosaj/git/MAYA-FINAL-IOS/Reports/20210622_195616/Ornage HRM/Login - TS/20210622_195626/execution0.log"/>
+         <property name="attachments" value="/Users/mosaj/git/MAYA-FINAL-IOS/Reports/20210622_195616/Ornage HRM/Login - TS/20210622_195626/1624363037802.png"/>
+         <property name="hostName" value="mosaj - 192.168.0.105"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 85.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="ca20f2b6-7d03-1b4a-ad95-41277a525558"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=-1, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/online tutorial/login HRM" time="19.277" classname="Test Cases/online tutorial/login HRM" status="PASSED">
+         <system-out><![CDATA[2021-06-22 19:57:05 - [TEST_CASE][PASSED] - Test Cases/online tutorial/login HRM: Test Cases/online tutorial/login HRM
+
+2021-06-22 19:57:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-22 19:57:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-06-22 19:57:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-06-22 19:57:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-22 19:57:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-22 19:57:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-22 19:57:14 - [TEST_STEP][PASSED] - navigateToUrl("https://mosajgohar-trials71.orangehrmlive.com/auth/login"): Navigate to 'https://mosajgohar-trials71.orangehrmlive.com/auth/login' successfully
+
+2021-06-22 19:57:16 - [MESSAGE][PASSED] - Navigate to 'https://mosajgohar-trials71.orangehrmlive.com/auth/login' successfully
+
+2021-06-22 19:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username")): Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username' is clicked on
+
+2021-06-22 19:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username' is clicked on
+
+2021-06-22 19:57:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-06-22 19:57:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mosaj/git/MAYA-FINAL-IOS/Reports/20210622_195616/Ornage HRM/Login - TS/20210622_195626/1624363037802.png]]
+
+2021-06-22 19:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("OrangeHRM/Login credentials").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-06-22 19:57:19 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-06-22 19:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword"), findTestData("OrangeHRM/Login credentials").getValue(2, 1)): Text 'Up62EXrKm@' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-06-22 19:57:19 - [MESSAGE][PASSED] - Text 'Up62EXrKm@' is set on object 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-06-22 19:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-06-22 19:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-22 19:57:04 - [TEST_SUITE][PASSED] - Login - TS: Test Cases/online tutorial/login HRM]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

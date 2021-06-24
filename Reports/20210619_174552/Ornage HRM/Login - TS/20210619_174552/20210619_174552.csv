@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - TS,Firefox 85.0,,,2021-06-19 17:46:10,2021-06-19 17:46:49,38.500s,PASSED
+,,,,,,,
+Test Cases/online tutorial/login HRM,Firefox 85.0,,,2021-06-19 17:46:11,2021-06-19 17:46:49,37.350s,PASSED
+"openBrowser("""")",Firefox 85.0,,,2021-06-19 17:46:12,2021-06-19 17:46:25,12.406s,PASSED
+maximizeWindow(),Firefox 85.0,,,2021-06-19 17:46:25,2021-06-19 17:46:25,0.684s,PASSED
+"navigateToUrl(""https://mosajgohar-trials71.orangehrmlive.com/auth/login"")",Firefox 85.0,,,2021-06-19 17:46:25,2021-06-19 17:46:30,4.182s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username""))",Firefox 85.0,,,2021-06-19 17:46:30,2021-06-19 17:46:31,1.138s,PASSED
+takeScreenshot(),Firefox 85.0,,,2021-06-19 17:46:31,2021-06-19 17:46:31,0.495s,PASSED
+"setText(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), findTestData(""OrangeHRM/Login credentials"").getValue(1, 1))",Firefox 85.0,,,2021-06-19 17:46:31,2021-06-19 17:46:34,3.055s,PASSED
+"setText(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword""), findTestData(""OrangeHRM/Login credentials"").getValue(2, 1))",Firefox 85.0,,,2021-06-19 17:46:34,2021-06-19 17:46:35,0.668s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit""))",Firefox 85.0,,,2021-06-19 17:46:35,2021-06-19 17:46:41,5.651s,PASSED
+takeScreenshot(),Firefox 85.0,,,2021-06-19 17:46:41,2021-06-19 17:46:49,8.011s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_Dashboard/img""))",Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.013s,NOT_RUN
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_Apply Leave/span_Home""))",Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.005s,NOT_RUN
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down""))",Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.009s,NOT_RUN
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_Dashboard/i_keyboard_arrow_down""))",Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.008s,NOT_RUN
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_Dashboard/a_Logout""))",Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.002s,NOT_RUN
+delay(5),Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.009s,NOT_RUN
+closeBrowser(),Firefox 85.0,,,2021-06-19 17:46:49,2021-06-19 17:46:49,0.002s,NOT_RUN

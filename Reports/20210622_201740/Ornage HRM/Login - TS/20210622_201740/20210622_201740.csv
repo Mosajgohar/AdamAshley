@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - TS,Chrome 91.0.4472.114,,,2021-06-22 20:18:07,2021-06-22 20:18:30,23.674s,PASSED
+,,,,,,,
+Test Cases/online tutorial/login HRM,Chrome 91.0.4472.114,,,2021-06-22 20:18:08,2021-06-22 20:18:30,22.630s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.114,,,2021-06-22 20:18:09,2021-06-22 20:18:16,6.936s,PASSED
+maximizeWindow(),Chrome 91.0.4472.114,,,2021-06-22 20:18:16,2021-06-22 20:18:16,0.258s,PASSED
+"navigateToUrl(""https://mosajgohar-trials71.orangehrmlive.com/auth/login"")",Chrome 91.0.4472.114,,,2021-06-22 20:18:16,2021-06-22 20:18:19,3.108s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/span_Username""))",Chrome 91.0.4472.114,,,2021-06-22 20:18:19,2021-06-22 20:18:20,0.678s,PASSED
+takeScreenshot(),Chrome 91.0.4472.114,,,2021-06-22 20:18:20,2021-06-22 20:18:21,0.582s,PASSED
+"setText(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), findTestData(""OrangeHRM/Login credentials"").getValue(1, 1))",Chrome 91.0.4472.114,,,2021-06-22 20:18:21,2021-06-22 20:18:23,2.245s,PASSED
+"setText(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/input_Username_txtPassword""), findTestData(""OrangeHRM/Login credentials"").getValue(2, 1))",Chrome 91.0.4472.114,,,2021-06-22 20:18:23,2021-06-22 20:18:23,0.613s,PASSED
+"click(findTestObject(""Object Repository/Orange HRM Login/Page_OrangeHRM/input_Password_Submit""))",Chrome 91.0.4472.114,,,2021-06-22 20:18:23,2021-06-22 20:18:30,7.016s,PASSED

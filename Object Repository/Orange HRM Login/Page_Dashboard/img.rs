@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>bbea8e9c-cc10-4e22-878c-2b1bca3f1211</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widget.id']/span/span/quick-access-widget/div/div/div[2]/span/div/span[2]/span[3]/div/span/span/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-src</name>
+      <type>Main</type>
+      <value>images/dashboard/icons/default_icon_apply_leave.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>images/dashboard/icons/default_icon_apply_leave.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;shuffle-animation&quot;]/div[@class=&quot;oxd-dashboard container&quot;]/div[@class=&quot;dashboard-container&quot;]/dashboard-layout[1]/div[@class=&quot;dashboard-layout&quot;]/widget-container[1]/div[@class=&quot;row&quot;]/div[@id=&quot;widget.id&quot;]/span[@class=&quot;dashboard-complete-widget&quot;]/span[@class=&quot;widget-content-container&quot;]/quick-access-widget[1]/div[@class=&quot;dashboard-widget-container&quot;]/div[@class=&quot;dashboard-widget action-center-widget&quot;]/div[@class=&quot;widget-body&quot;]/span[@class=&quot;primary-content-container&quot;]/div[@class=&quot;action-center-widget-container&quot;]/span[@class=&quot;quick-access-section-container&quot;]/span[@class=&quot;quick-access-item-container&quot;]/div[@class=&quot;quick-access-button&quot;]/span[@class=&quot;quick-access-icon-container&quot;]/span[@class=&quot;quick-access-icon&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='widget.id']/span/span/quick-access-widget/div/div/div[2]/span/div/span[2]/span[3]/div/span/span/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span[3]/div/span/span/img</value>
+   </webElementXpaths>
+</WebElementEntity>
